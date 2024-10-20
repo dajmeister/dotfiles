@@ -1,5 +1,13 @@
+#!/bin/bash
+
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
 
+#Environment Variables
+export LESS=-R
 export STARSHIP_CONFIG=~/.config/starship.toml
+
+#Aliases
+alias vi=nvim
+alias vim=nvim

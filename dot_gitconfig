@@ -1,6 +1,6 @@
 [user]
-	email = john@johnchilds.me
-	name = John Childs
+    email = john@johnchilds.me
+    name = John Childs
 
 [core]
     pager = delta
