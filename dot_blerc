@@ -1,0 +1,2 @@
+ble-face syntax_error='fg=red'
+ble-face auto_complete='fg=grey,italic'

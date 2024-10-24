@@ -4,6 +4,9 @@ if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
 
+[[ $- == *i* ]] &&
+  source "/usr/share/blesh/ble.sh" --rcfile "$HOME/.blerc"
+
 #Environment Variables
 export LESS=-R
 export STARSHIP_CONFIG=~/.config/starship.toml
@@ -11,3 +14,7 @@ export STARSHIP_CONFIG=~/.config/starship.toml
 #Aliases
 alias vi=nvim
 alias vim=nvim
+
+# Write the following line at the bottom of .bashrc
+[[ ! ${BLE_VERSION-} ]] || ble-attach
+
