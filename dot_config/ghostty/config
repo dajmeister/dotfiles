@@ -1,0 +1,8 @@
+command = zsh
+font-family = JetBrainsMono
+font-size = 12
+theme = Catppuccin Mocha
+window-padding-x = 4
+background-opacity = 0.95
+background-blur = true
+confirm-close-surface = false
