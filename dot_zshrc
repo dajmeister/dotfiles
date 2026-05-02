@@ -1,5 +1,8 @@
 export GOPATH="$HOME/.local/share/go"
 
+typeset -U path
+path+=("/home/linuxbrew/.linuxbrew/bin")
+path+=("/home/linuxbrew/.linuxbrew/sbin")
 path+=("$HOME/.local/bin")
 path+=("$GOPATH/bin")
 export PATH
