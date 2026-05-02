@@ -1,6 +1,6 @@
 [".config/nvim"]
     type = "git-repo"
-    url = "git@github.com:dajmeister/kickstart.nvim.git"
+    url = "git@github.com:dajmeister/kickstart-modular.nvim.git"
     refreshPeriod = "168h"
     [".config/nvim".pull]
         args = ["--ff-only"]
