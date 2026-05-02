@@ -21,8 +21,13 @@ zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
 source <(carapace _carapace)
 
 alias cz=chezmoi
-alias czea=chezmoi edit --apply
+alias up="ujust update"
 alias vi=nvim
 alias vim=nvim
+
+function czea {
+    chezmoi edit ${1} --apply
+}
+
 
 [ "$(command -v atuin)" ] && eval "$(atuin init zsh)"
